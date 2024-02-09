@@ -1,6 +1,7 @@
 #X valor que ele junta todos os meses
 #Y valor do celta 
 #N numero de meses
+print('Não finalizado')
 
 m, vdc= input().split()
 meses = int(m)
