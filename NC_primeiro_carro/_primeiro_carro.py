@@ -1,22 +1,18 @@
-#X valor que ele junta todos os meses
-#Y valor do celta 
-#N numero de meses
-print('Não finalizado')
+meses, Y = map(float,input().split())
+X = [float(input()) for _ in range(int(meses))]
 
-m, vdc= input().split()
-meses = int(m)
-valor_do_carro = float(vdc)
-valor_na_conta = 0
-momento_da_compra = 0
+caixa = 0.00
+mes = 1
+comprou = False
 
-for i in range(meses):
-    valor_na_conta += float(input())
+for valor in X:
+    caixa += valor
+    if caixa >=Y:
+        comprou = True
+    else:
+        mes+=1
 
-    if momento_da_compra==0 and valor_na_conta >= valor_do_carro:
-        momento_da_compra = i+1
-
-if valor_na_conta >= valor_do_carro:
-    print(f'{momento_da_compra} {valor_na_conta-valor_do_carro:.2f}')
+if comprou:
+    print(f'{mes} {caixa-Y:.2f}')
 else:
-    print(f'{momento_da_compra} {valor_na_conta:.2f}')
-
+    print(f'0 {caixa:.2f}')
