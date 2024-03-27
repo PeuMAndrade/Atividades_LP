@@ -16,5 +16,5 @@ while(N!=0):
             Passos += 1
         if MaiorN < N:
             MaiorN = int(N)
-    print(f'{Passos} {MaiorN}')
+    print(f"{Passos} {MaiorN}")
     N = int(input())

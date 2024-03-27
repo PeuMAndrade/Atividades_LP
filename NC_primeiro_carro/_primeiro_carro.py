@@ -13,6 +13,6 @@ for valor in X:
         mes+=1
 
 if comprou:
-    print(f'{mes} {caixa-Y:.2f}')
+    print(f"{mes} {caixa-Y:.2f}")
 else:
-    print(f'0 {caixa:.2f}')
+    print(f"0 {caixa:.2f}")

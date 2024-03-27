@@ -8,10 +8,10 @@ entrada2 = int(input())
 res = entrada1 * entrada2
 
 if 500 > res:
-    print('Paciencia Firmino!')
+    print("Paciencia Firmino!")
 elif 500 <= res < 1800:
-    print('Vara de Bambu')
+    print("Vara de Bambu")
 elif 1800 <= res < 7500:
-    print('Vara de Fibra de Vidro')
+    print("Vara de Fibra de Vidro")
 else:
-    print('Vara de Iridio')
+    print("Vara de Iridio")

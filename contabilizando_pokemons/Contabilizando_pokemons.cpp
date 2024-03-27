@@ -9,6 +9,6 @@ int main(){
     cin >>kr >>jr>>hr;
     cin >>kn >>jn>>hn;
 
-    cout << kr+kn << ' '<< jr+jn << ' '<<hr+hn;
+    cout << kr+kn << " "<< jr+jn << " "<<hr+hn;
 
 }

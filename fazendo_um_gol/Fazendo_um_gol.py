@@ -1,10 +1,10 @@
 z,g = input().split()
 d,c = input().split()
 if z==d:
-    print('Driblado')
+    print("Driblado")
     if g!=c:
-        print('...e o goleiro pega')
+        print("...e o goleiro pega")
     else:
-        print('Gol')
+        print("Gol")
 else:
-    print('Bloqueado')
+    print("Bloqueado")

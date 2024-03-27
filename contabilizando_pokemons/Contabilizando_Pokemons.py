@@ -8,4 +8,4 @@ elementos_combinados = zip(lista1, lista2) #Cria um tupla
 
 soma_elementos = [x + y for x, y in elementos_combinados] #Cria uma lista com a soma do elementos de uma tupla
 for x in soma_elementos:
-    print(x, end=' ')
+    print(x, end=" ")

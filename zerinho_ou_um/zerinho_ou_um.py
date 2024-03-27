@@ -1,9 +1,9 @@
 A,B,C =input().split()
 if A != B and A != C:
-    print('A')
+    print("A")
 elif B != A and B != C:
-    print('B')
+    print("B")
 elif C != A and C != B:
-    print('C')
+    print("C")
 else:
-    print('Empate')
+    print("Empate")

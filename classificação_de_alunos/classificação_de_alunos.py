@@ -5,12 +5,12 @@ for _ in range(0,Turmas):
     for _ in range(0, Alunos):
         Nota = int(input())
         if Nota >= 1.95*Media:
-            print('SS')
+            print("SS")
         elif Nota >= 1.67*Media and Nota <1.95*Media:
-            print('S')
+            print("S")
         elif Nota >= 1.00*Media and Nota <1.67*Media:
-            print('MS')
+            print("MS")
         elif Nota >= 0.67*Media and Nota <1.00*Media:
-            print('MI')
+            print("MI")
         else:
-            print('I')
+            print("I")

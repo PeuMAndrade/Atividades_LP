@@ -8,11 +8,11 @@ while i < n:
 contagem = lista.count(1)
 res = (contagem*100)/n
 if res<30:
-    print('Regiao segura')
+    print("Regiao segura")
     
 elif res>=30 and res<=50:
-    print('Regiao em estado de alerta')
+    print("Regiao em estado de alerta")
     
 else:
-    print('Regiao com alto indice de perda de biodiversidade')
+    print("Regiao com alto indice de perda de biodiversidade")
     

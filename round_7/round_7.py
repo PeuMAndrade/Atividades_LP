@@ -19,7 +19,7 @@ for i in lista:
         chegou = True
 
 if chegou:
-    print('true')
+    print("true")
 else:
-    print('false')
+    print("false")
 

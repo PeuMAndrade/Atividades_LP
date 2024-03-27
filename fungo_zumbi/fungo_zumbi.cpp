@@ -5,7 +5,7 @@ int main(){
     int tempo;
     char estado;
     cin >> estado >> tempo;
-    if (estado=='S'){
+    if (estado=="S"){
         if (tempo>=30){
             cout << "Imune! Siga para um local seguro";
         }

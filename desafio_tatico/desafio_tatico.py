@@ -20,7 +20,7 @@ while P>j:
         resA += ATK[k]
         resD += DEF[k]
         k+=1
-    print(f'{resA} {resD}')
+    print(f"{resA} {resD}")
     resA = 0
     resD = 0
     S+=(P+1)

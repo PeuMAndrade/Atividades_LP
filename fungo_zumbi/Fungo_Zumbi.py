@@ -10,12 +10,12 @@
 entrada = input()
 estado = entrada[0]
 tempo = int(entrada[1:])
-if estado=='S':
+if estado=="S":
     if tempo>=30:
-        print('Imune! Siga para um local seguro')
+        print("Imune! Siga para um local seguro")
     elif 7 <= tempo <= 30:
-        print('Acesso negado! Fique em observacao')
+        print("Acesso negado! Fique em observacao")
     else:
-        print('Acesso negado! Isolamento urgente')
+        print("Acesso negado! Isolamento urgente")
 else:
-    print('Acesso permitido!')
+    print("Acesso permitido!")

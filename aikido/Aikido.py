@@ -1,14 +1,14 @@
 A,H = map(int,input().split())
 if A>0:
     if H>=120:
-        print('marrom')
+        print("marrom")
     elif 120 > H >= 110:
-        print('azul')
+        print("azul")
     elif 110 > H >= 90:
-        print('verde')
+        print("verde")
     elif 90 > H >= 72:
-        print('roxa')
+        print("roxa")
     else:
-        print('amarela')
+        print("amarela")
 else:
-    print('branca')
+    print("branca")

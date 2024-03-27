@@ -10,4 +10,4 @@ while(x>=60):
     x-=60
 seg=x
 
-print(f'{hr}h {min}m {seg}s')
+print(f"{hr}h {min}m {seg}s")
