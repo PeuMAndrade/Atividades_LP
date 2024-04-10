@@ -2,9 +2,10 @@
 using namespace std;
 
 int main(){
-    int F,B;
+    int F;
+    long B;
     cin >> F >> B;
-    int res=0;
+    long res=0;
     for(int i = 0; i<F; i++){
         res += B;
         B*=2;
