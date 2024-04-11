@@ -4,11 +4,13 @@
 using namespace std;
 
 int main(){
-    int N,Q,RES=0;
-    cin >> N >> Q;
-    for(int i=0; i<N; i++){
-        RES += Q;
-        Q = Q*2;
+    int F;
+    long B;
+    cin >> F >> B;
+    long res=0;
+    for(int i = 0; i<F; i++){
+        res += B;
+        B*=2;
     }
-    cout << RES;
+    cout << res;
 }
