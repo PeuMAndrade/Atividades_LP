@@ -8,40 +8,49 @@ void celcius(float T){
         F = (1.8 * T) + 32;
         K = T + 273;
         cout << fixed <<setprecision(2);
-        cout << F << "F, " << K << "K " <<endl;
+        cout << F << " F, " << K << " K " <<endl;
     }
-}
-
-void kelvin(float T){
-    if(T > -273.15){
-        C = (T-32) * 5/9;
-        K = (T - 32) * 5/9 + 273;
-        cout << fixed <<setprecision(2);
-        cout << C << "C, " << K << "K " <<endl;
+    else{
+        cout << "Temperatura invalida"<<endl;
     }
 }
 
 void fahrenheit(float T){
-    if(T > -273.15){
+    if(T > -459.67){
+        C = (T-32) * 5/9;
+        K = (T - 32) * 5/9 + 273;
+        cout << fixed <<setprecision(2);
+        cout << C << " C, " << K << " K " <<endl;
+    }
+    else{
+        cout << "Temperatura invalida"<<endl;
+    }
+}
+
+void kelvin(float T){
+    if(T > 0){
         C = T - 273;
         F = (T - 273) * 1.8 + 32;
         cout << fixed <<setprecision(2);
-        cout << C << "C, " << F << "F " <<endl;
+        cout << C << " C, " << F << " F " <<endl;
+    }
+    else{
+        cout << "Temperatura invalida" <<endl;
     }
 }
 
 int main(){
     while(true){
-        string T;
-        char E;
-        cin >> T >> E;
-        while (T != "FIM"){
-            T = float(T);
+        string T1;
+        string E;
+        cin >> T1 >> E;
+        while (T1 != "FIM"){
+            float T = stof(T1);
             if (E == "C"){
                 celcius(T);
                 break;
             }
-            if (E == "C"){
+            else if (E == "F"){
                 fahrenheit(T);
                 break;
             }
@@ -50,7 +59,7 @@ int main(){
                 break;
             }
         }
-        if(T == "FIM"){
+        if(T1 == "FIM"){
             break;
         }
     }

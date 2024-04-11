@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Peuma/..Desktop/Programação/Logica_de_programação/Jude/NC_Detetizador_do_futuro",
-      "program": "c:/Users/Peuma/..Desktop/Programação/Logica_de_programação/Jude/NC_Detetizador_do_futuro/build/Debug/outDebug",
+      "cwd": "c:/Users/Peuma/..Desktop/Programação/Logica_de_programação/Jude/onde_esta_o_navio",
+      "program": "c:/Users/Peuma/..Desktop/Programação/Logica_de_programação/Jude/onde_esta_o_navio/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

@@ -2,26 +2,24 @@
 using namespace std;
 
 int main(){
-    int N, N2,N4, P,ii,q,j=0;
-    int res=0;
-    cin >> N >> q;
-    N2 = N*N;
-    N4 = N2*N2;
-    P = (N*N)-N;
-    ii = q*N;
-    int L[N4];
-    for(int i=0;i<N2;i++){
-        while(j<N2){
-            cin >> L[j];
-            j++;
-        }
+  int N,Q,N2;
+  cin >> N >> Q;
+  N2 = N*N;
+  int mat[N2][N2];
+  int mat2[N2];
+  for(int i=0;i<N2;i++){
+    for(int j=0;j<N2;j++){
+        cin >> mat[i][j];
+        mat2[j]
     }
-    for (int i=0; i<N2; i ++){
-        for(int j=0;j<N;j++){
-            res+=L[ii];
-            ii++;
-        }
-        ii+=P;
+  }
+  for(int i=0;i<N2;i++){
+    for(int j=0;j<N2;j++){
+      for(int k=0;k<N;k++){
+        cout << mat[k] << " ";
+      }
+      cout << endl;
     }
-
+    cout << endl;
+  }
 }

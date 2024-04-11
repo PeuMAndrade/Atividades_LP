@@ -1,13 +1,14 @@
+//Entrada é composta por 2 inteiros separados por um espaço N = quantidade de familiares, Q = Quantidade de bolinhas
+
 #include <iostream>
 using namespace std;
 
 int main(){
-    int F,B;
-    cin >> F >> B;
-    int res=0;
-    for(int i = 0; i<F; i++){
-        res += B;
-        B*=2;
+    int N,Q,RES=0;
+    cin >> N >> Q;
+    for(int i=0; i<N; i++){
+        RES += Q;
+        Q = Q*2;
     }
-    cout << res;
+    cout << RES;
 }

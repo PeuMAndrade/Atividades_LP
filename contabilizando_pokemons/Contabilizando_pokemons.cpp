@@ -1,14 +1,9 @@
 #include <iostream>
-
 using namespace std;
 
 int main(){
-    int kr,jr,hr;
-    int kn,jn,hn;
-
-    cin >>kr >>jr>>hr;
-    cin >>kn >>jn>>hn;
-
-    cout << kr+kn << " "<< jr+jn << " "<<hr+hn;
-
+    int K,J,H,KN,JN,HN;
+    cin >> K >> J >> H;
+    cin >> KN >> JN >> HN;
+    cout << K+KN << " " << J+JN << " " << H+HN;
 }

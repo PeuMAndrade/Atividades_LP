@@ -1,0 +1,20 @@
+Entrada
+Primeira linha 1 inteiro N >= 1 representando a quantidade de aliados do ichigo
+
+As proximas N linhas serão os nomes dos aliados um por linha
+
+Na sequência, um inteiro m >= 1 representando o número de aliados necessários para vencer a guerra
+
+As próximas 'M' linhas terão os nomes de aliados ou não
+
+////////////////////////////
+Saída
+Estamos perdidos, Ichigo - Caso nem todos os ‘M’ nomes estão dentre os ‘N’
+Sociedade das almas salva, Ichigo - Caso todos os ‘M’ nomes estejam dentre os ‘N’
+
+////////////////////
+Organização
+
+Vou jogar todas os aliados no vector
+percorrer esse vector e para cada valor encontrado i++
+i==m 
